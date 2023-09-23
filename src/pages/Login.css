@@ -1,0 +1,78 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    width: fit-content;
+}
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: none;
+}
+
+.main {
+
+    padding: 0px 10px;
+    background-image: url("https://images2.alphacoders.com/885/885880.jpg")
+
+}
+
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+.login-form{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+@media screen and (max-width: 700px) {
+    login-main-text{
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        display: block !important;
+    }
+    
+
+    .main {
+        margin-left: 40%; 
+    }
+    .login-main-text{
+        margin-top: 20%;
+        padding: 60px;
+        color: #fff;
+    }
+    .sm-logo{
+        display:none;
+    }
+    
+}
